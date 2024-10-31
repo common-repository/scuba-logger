@@ -1,0 +1,138 @@
+.scubaloggertest {
+	color:red;
+}
+
+#formerrors {
+	color:red;
+	background-color:white;
+	border: 1px solid red;
+	padding:5px 20px 10px 10px;
+	display:inline-block;
+	position:relative;
+	left:1px;
+}
+
+H1, p {
+	position:relative;
+	left:1px;
+}
+
+H1 {
+	padding:10px 0px 10px 0px;
+}
+
+H2.rederror {
+	color:red;
+}
+
+input.formentry {
+	border:0px;
+	padding:1px 3px 1px 3px;
+	background-color:white;
+	font-size:13px;
+}
+
+table.diveentry, th.diveentry, td.diveentry
+{
+	border-collapse:collapse;
+	border: 1px solid black;
+	background-color:#6959ff;
+	color:white;
+	width:90%;
+}
+
+td.diveentry, th.diveentry
+{
+	border: 1px 1px 0px 0px;
+	border-style:solid;
+	border-color:white;
+	padding: 4px 5px 4px 5px;
+	width:10%;
+}
+
+td.divesubmit
+{
+	border: 1px 1px 0px 0px;
+	border: 1px solid white;
+	padding: 8px 5px 8px 5px;
+}
+
+
+table.divelist, td.divelist, td.divelistfiller, td.altfiller
+{
+	border-collapse:collapse;
+	border: 1px solid white;
+	color:white;
+}
+
+table.divelist, td.divelist
+{
+	width:90%;
+}
+
+td.divelist, td.divelisthead1
+{
+	padding: 4px 25px 4px 5px;
+	width:10%;
+}
+
+tr.divelisthead1
+{
+	background-color:#129793;
+}
+
+H3.divelisthead1, H3.diveform
+{
+	color:white;
+}
+
+tr.divelisthead2
+{
+	background-color:#9bd7d5;
+}
+
+tr.divelist, td.divelistfiller
+{
+	background-color:#9bd7d5;
+}
+
+tr.alt, td.altfiller
+{
+	background-color:#129793;
+}
+
+tr.details
+{
+	display:none;
+	background-color:#505050;
+}
+
+a.divelistactionlink, a.showlink, a.showalllink
+{
+	color:#fff5c3;
+}
+
+table.divedetails
+{
+	border-collapse:collapse;
+	border: 0px solid white;
+	background-color:#505050;
+	color:white;
+	padding: 5px 5px 5px 5px;
+}
+
+td.divedetails
+{
+	padding: 5px 20px 5px 5px;
+}
+
+.submitbutton {
+	color: #fff;
+	font-size: 20px;
+	width: 135px;
+	height: 30px;
+	border: 1px solid white;
+	margin: 0px;
+	padding: 10px;
+	background-color:#ff7260;
+}
